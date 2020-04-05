@@ -27,12 +27,10 @@ Moving over to `index.html`, this is the starting point for the app when it's la
 
 The appearance is defined in `css/app.css`. There are just some very basic rules.
 
-We define the app's behaviour in `js/app.js`. Right now we're just basically displaying a "Hello world" message.
+We define the app's behaviour in `js/app.js` and `js/kios`. 
 
-Finally we are also including `js/libs/l10n.js`, which contains [L10n](https://developer.mozilla.org/en-US/docs/Web/API/L10n_API), a library for translating the strings in the app. Using this library, users can run the app in their own language, as long as you provide the translations for those languages. We're currently including a translation to Spanish as an example, but feel free to contribute with more translations in `data/locales.ini`, looking at `data/es.properties` and `data/en-US.properties` to see the syntax in action. The way it works, it will automatically translate the HTML elements that contain a `data-l10n-id` attribute with the translation identifier.
-
-For any dynamically shown content, you need to use the `navigator.webL10n.get` function, but since that is slightly tedious to write each time, we're aliasing it to just `translate`:
 
 ```javascript
-var translate = navigator.mozL10n.get;
+```
+```nodeJs
 ```
