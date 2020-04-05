@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "name": "myFirstApp",
-  "description": "A template with the bare minimum structure",
+  "name": "Corona Statistics",
+  "description": "This Application will show the latest Statistics of corona patients from Ministry of Health and Family Welfare website",
   "launch_path": "/index.html",
   "icons": {
     "16": "/img/icons/icon16x16.png",
@@ -10,7 +10,7 @@
     "128": "/img/icons/icon128x128.png"
   },
   "developer": {
-    "name": "Your name",
+    "name": "Amit Kumar Kannaujiya",
     "url": "http://example.com"
   },
   "type": "privileged",
@@ -20,8 +20,8 @@
   ],
   "locales": {
     "en": {
-      "name": "Sample Application",
-      "description": "Sample Kios Application",
+      "name": "Corona Statistics",
+      "description": "Corona Statistics KaiOS application",
       "permissions": {}
     }
   },
