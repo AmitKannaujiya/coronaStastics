@@ -6,8 +6,9 @@ This is a `node js`, `javascript` application which crawl  ``Ministry of Healtha
 and fetch latest data available there and store same in application . And same is visible on application
 
 # Installation
-initial setup require to have latest [`node js`] and [`npm`] (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04) and [KaiOS](https://developer.kaiostech.com/getting-started/) setup.
+initial setup require to have latest [`node js`] and [`npm`] (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04) and [KaiOS](https://developer.kaiostech.com/getting-started/) setup. 
 
+Install npm in project folder `npm install`  .
 
 # Crawal data
 Latest COVID-19 Stastics is updated periodically on  ``Ministry of Healthand Family WelfareGovernment of India``(https://www.mohfw.gov.in/) website . 
