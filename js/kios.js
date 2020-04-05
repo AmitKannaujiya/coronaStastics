@@ -40,10 +40,7 @@ var MODULE = (function () {
 
     // startup
     window.addEventListener("load", function () {
-        // var viewRoot = document.getElementById("views");
-        // app.views = viewRoot.querySelectorAll('.view');
-        // load first view
-        //showView(0);
+
         initView();
     });
 
@@ -62,7 +59,7 @@ var MODULE = (function () {
         for(let [index, row] of Object.entries(rows)) {
             if(index > app.totalNoOfStates) {
                 $(detailDiv).append(
-                    '<div class="card m-t10"><div class="header-title-div" onclick="showDetail(' +"'detail-"+30+  "')"+ '">'
+                    '<div class="card m-t10 crs-pointer"><div class="header-title-div" onclick="showDetail(' +"'detail-"+30+  "')"+ '">'
                     +'<div class="state-name"> <strong class="state-name-span">'+ row[0]+' :</strong></div>'
                     +'</div>'
                     + '<div class="detail-'+30+' header-detail">'
@@ -78,7 +75,7 @@ var MODULE = (function () {
         // for (var index = 0; index < rows.length && index < app.totalNoOfStates; index++) {
 
             $(detailDiv).append(
-                '<div class="card m-t10"><div class="header-title-div" onclick="showDetail(' +"'detail-"+row[0]+  "')"+ '">'
+                '<div class="card m-t10 crs-pointer"><div class="header-title-div" onclick="showDetail(' +"'detail-"+row[0]+  "')"+ '">'
                 +'<div class="state-name"> <strong>Name of State / UT : </strong><span class="state-name-span">'+ row[1]+'</span></div>'
                 +'</div>'
                 + '<div class="detail-'+row[0]+' header-detail">'
