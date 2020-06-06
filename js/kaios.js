@@ -20,7 +20,7 @@ var MODULE = (function () {
     app.actionButton = document.getElementById("bar-action");
     app.optionsButton = document.getElementById("bar-options");
 
-    app.totalNoOfStates = 29;  // It is just fixed as data is not comming properly formated after that.
+    app.totalNoOfStates = 35;  // It is just fixed as data is not comming properly formated after that.
 
 
     // button input
